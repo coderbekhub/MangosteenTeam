@@ -78,37 +78,12 @@ export default function ContactForm() {
   }
 
   const [styled, setStyled] = useState({ border: '1px solid red', borderRadius: '2px' })
-
   const [inputValue, setValue] = useState('')
   const [error, setError] = useState({
     name: [false, ""],
     phone: [false, ""],
     text: [false, ""],
   })
-
-  // const changeNameHandler = (e) => {
-  //   let error = ''
-  //   let elInputName = e.target.name
-  //   let elInputValue = e.target.value
-  //   let a = { [elInputName]: elInputValue }
-
-  //   let style = {}
-  //   if(a[elInputName] === '') {
-  //     style = {
-  //       border: '2px solid red'
-  //     };
-  //     setError('To’ldirish majburiy!')
-  //   }
-
-  //    else {
-  //     style = {
-  //       border: '2px solid green'
-  //     }
-  //     setError('')
-  //   }
-  //   setStyled(style)
-  //   setValue(elInputValue)
-  // }
 
   return (
     <section className='contactFormSection'>
@@ -124,14 +99,14 @@ export default function ContactForm() {
 
               <div className='position-relative'>
 
-                <label>Ваше Ф.И.О</label>
+                <label>{getText('contactLabel')}</label>
                 <input className='col-12 mb-5' onChange={() => setError(p => ({ ...p, name: [false, ''] }))} style={error.name[0] ? styled : null} type="text" placeholder={getText('contactInputHolder')} />
                 {error.name[0] && <p style={{ color: 'red' }} className='position-absolute bottom-0 mb-3'>{error.name[1]}</p>}
               </div>
 
               <div className='position-relative'>
 
-                <label>Телефон</label>
+                <label>{getText('contactLabe2')}</label>
                 <input className='col-12 mb-5' onChange={(e) => {
                   e.target.setCustomValidity("");
 
@@ -147,14 +122,14 @@ export default function ContactForm() {
 
               <div className='position-relative'>
 
-                <label>Xabaringiz</label>
+                <label>{getText('contactLabel3')}</label>
                 <textarea className='col-12 mb-5 textarea' onChange={() => setError(p => ({ ...p, text: [false, ''] }))} style={error.text[0] ? styled : null} placeholder={getText('contactInputHolderText')}></textarea>
                 {error.text[0] && <p style={{ color: 'red' }} className='position-absolute bottom-0 mb-3'>{error.text[1]}</p>}
               </div>
 
               <div className='contactSocialContent'>
 
-                <button className='consultationBtn contactConsultationBtn'>Submit</button>
+                <button className='consultationBtn contactConsultationBtn'>{getText('contactSubmit')}</button>
 
                 <div className='contactSocialLink'>
 
@@ -177,16 +152,16 @@ export default function ContactForm() {
           </div>
           <div data-aos="fade-left" data-aos-duration="1500" className='contactInfoContent col-3'>
             <div className='contactInfo'>
-              <h2>Телефон</h2>
+              <h2>{getText('contactPhoneNum')}</h2>
               <a href="tel:+998500105610">+998 50 010 56 10 </a>
               <a href="tel:+998951666763">+998 95 166 67 63 </a>
             </div>
             <div className='contactInfo'>
-              <h2>Почта</h2>
+              <h2>{getText('contactMail')}</h2>
               <a href="#">Mangosteen@mail.ru</a>
             </div>
             <div className='contactInfo'>
-              <h2>Время работы</h2>
+              <h2>{getText('contactWorkingTime')}</h2>
               <p>Dush-Yak 9:00 - 00:00</p>
             </div>
           </div>

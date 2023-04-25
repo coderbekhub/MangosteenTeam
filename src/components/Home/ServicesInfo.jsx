@@ -19,8 +19,8 @@ export default function ServicesInfo() {
               <p>{getText("webInfo")} </p>
 
               <Link to='/services'>{getText("webLink")}</Link>
-              <p>Veb-saytingizni biz bilan yarating. Biz turli xildagi saytlarni siz istaganingizdek qilib yaratib beramiz. </p>
-              <Link to='/services'>Ba'tafsil ma'lumot</Link>
+              <p>{getText('webTittle')} </p>
+              <Link to='/services'>{getText('webLink')}</Link>
             </div>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function ServicesInfo() {
               <p>{getText("telegramInfo")} </p>
 
               <Link to="/services">{getText("webLink")}</Link>
-              <p>Telegram botingizni biz bilan yarating. Biz turli xildagi botlarni siz istaganingizdek qilib yaratib beramiz. </p>
-              <Link to="/services">Ba'tafsil ma'lumot</Link>
+              <p>{getText('telegramInfo')} </p>
+              <Link to="/services">{getText('webLink')}</Link>
             </div>
           </div>
         </div>
@@ -57,8 +57,8 @@ export default function ServicesInfo() {
               <p>{getText("logoInfo")}</p>
 
               <Link to="/services">{getText("webLink")}</Link>
-              <p>Brandingizni dizaynini biz bilan yarating. Biz turli xildagi dizaynlarni siz istaganingizdek qilib yaratib beramiz. </p>
-              <Link to="/services">Ba'tafsil ma'lumot</Link>
+              <p>{getText('webInfoText')} </p>
+              <Link to="/services">{getText('webLink')}</Link>
             </div>
           </div>
         </div>

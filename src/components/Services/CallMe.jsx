@@ -13,7 +13,7 @@ export default function CallMe() {
           <div data-aos="fade-up" data-aos-duration="1500" className="">
             <a href="tel:+998951666763">
               <button className='consultationBtn'>
-                Qo'ng'iroq qilish
+                {getText('makeCall')}
               </button>
             </a>
           </div>

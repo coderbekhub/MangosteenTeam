@@ -14,11 +14,11 @@ export default function ContactHeader() {
                     <div data-aos="fade-up" data-aos-duration="2000" className='d-flex'>
                         <div>
                             <a href="tel:+998930105610">+998 (50) 010 56 10</a>
-                            <button className='consultationBtn'>BEPUL KONSULTATSIYA</button>
+                            <button className='consultationBtn'>{getText('freeConsultation')}</button>
                         </div>
                         <div className='noneBtn'>
                             <a href="tel:+998951666763">+998 (95) 166 67 63 </a>
-                            <button className='consultationBtn'>BEPUL KONSULTATSIYA</button>
+                            <button className='consultationBtn'>{getText('freeConsultation')}</button>
                         </div>
                     </div>
                     <ToDown />

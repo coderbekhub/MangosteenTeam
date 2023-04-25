@@ -88,6 +88,8 @@ export const en = {
     "webTittle" : "Web-site creation services",
     "webInfo" : "Build your web - site with us. We create different types of sites as you wish.",
     "webLink" : "Learn more",
+    'makeCall': 'Make a call',
+    'webInfoText': 'Build your brand with us. We can create different designs according to your wishes.',
     "telegramTittle" : "Telegram bot creation services",
     "telegramInfo" : "Create your Telegram bot with us. We create different types of bots as you wish.",
     "telegramLink" : "",
@@ -96,5 +98,17 @@ export const en = {
     "logoLink" : "",
 
     'contatInputHolderPhone': '+998 97 777 07 77',
-    'contactInputHolderText': 'Leave a message'
+    'contactInputHolderText': 'Leave a message',
+    'contactLabel': 'Your Full Name',
+    'contactLabel2': 'Telephone',
+    'contactLabel3': 'Your Message',
+    'contactSubmit': 'Submit',
+    'contactPhoneNum': 'Telephone',
+    'contactMail': 'Mail',
+    'contactWorkingTime': 'Working hours',
+
+    // About
+    'aboutTitle': 'About Us',
+    'aboutSecTitle': 'Mangosteen Group, our team is creating logos for the website, telegram bot and brand in a hybrid way. Our team consists of more than 10 qualified and masters of their craft. Mangosteen Group, our team is creating logos for the website, telegram bot and brand in a hybrid way. Our team consists of more than 10 qualified and masters of their craft.',
+    'aboutThridTitle': 'Develop your personal brand with us. We care about your goals and work hard with our team to provide you with the best quality. Mangosteen Group is grateful for your trust in us.'
 }

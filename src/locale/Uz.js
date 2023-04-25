@@ -89,6 +89,8 @@ export const uz = {
     "webTittle" : "Veb-sayt yaratish xizmatlari",
     "webInfo" : "Veb-saytingizni biz bilan yarating. Biz turli xildagi saytlarni siz istaganingizdek qilib yaratib beramiz.",
     "webLink" : "Ba'tafsil ma'lumot",
+    'makeCall': 'Qo’ng’iroq qilish',
+    'webInfoText': 'Brandingizni dizaynini biz bilan yarating. Biz turli xildagi dizaynlarni siz istaganingizdek qilib yaratib beramiz.',
     "telegramTittle" : "Telegram bot yaratish xizmatlari",
     "telegramInfo" : "Telegram botingizni biz bilan yarating. Biz turli xildagi botlarni siz istaganingizdek qilib yaratib beramiz.",
     "telegramLink" : "",
@@ -96,5 +98,18 @@ export const uz = {
     "logoInfo" : "Создайте свой бренд вместе с нами. Мы можем создать различные дизайны по вашему желанию.",
     "logoLink" : "",
     'contatInputHolderPhone': '+998 97 777 07 77',
-    'contactInputHolderText': 'Xabar Qoldiring'
+    'contactInputHolderText': 'Xabar Qoldiring',
+    'contactLabel': 'To’liq ismingiz',
+    'contactLabel2': 'Telefon raqamingiz',
+    'contactLabel3': 'Sizning xabaringiz',
+    'contactSubmit': 'Yuborish',
+    'contactPhoneNum': 'Telefon',
+    'contactMail': 'Pochta',
+    'contactWorkingTime': 'Ish vaqti',
+
+    // About
+
+    'aboutTitle': 'Biz haqimizda',
+    'aboutSecTitle': 'Mangosteen Group biznig jamoa veb-sayt, telegram-bot va brand uchun logotiplar yaratish bilan gibrit usulda shug’ulanadi. Jamoamizda 10 dan ortiq malakali va o’z ishining ustalari faoliyat yuritib borishadi. Mangosteen Group biznig jamoa veb-sayt, telegram-bot va brand uchun logotiplar yaratish bilan gibrit usulda shug’ulanadi. Jamoamizda 10 dan ortiq malakali va o’z ishining ustalari faoliyat yuritib borishadi.',
+    'aboutThridTitle': 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizlarga eng yaxhi sifatni ulashishga jamoamiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "Mangosteen Gruop" jamoasi o’z minatdorchiligini bildiradi.'
 }
