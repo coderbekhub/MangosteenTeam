@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useState } from 'react'
+import toast from 'react-hot-toast';
 import { getLanguage, getText } from '../locale'
 
 export default function ContactForm() {
@@ -44,6 +45,7 @@ export default function ContactForm() {
     let message = e.target[2].value
 
     if (formValidationChacking(name, number, message)) return
+    setDisbl(true)
 
     let text = `<b>Ismi:</b> ${name} \n<b>Telefon raqami:</b> ${number} \n<b>Xabar:</b> ${message}`
 
@@ -57,10 +59,13 @@ export default function ContactForm() {
       }
     })
       .then((res) => {
-        console.log(res);
+        toast.success("Habaring muvofaqqiyatli yuborildi!")
+        e.target.reset()
+        setDisbl(false)
       })
       .catch((err) => {
-        console.log(err);
+        toast.error("Habar yuborilmadi! Qayta urinib ko'ring")
+        setDisbl(false)
       })
 
     let style = {}
@@ -79,6 +84,7 @@ export default function ContactForm() {
 
   const [styled, setStyled] = useState({ border: '1px solid red', borderRadius: '2px' })
   const [inputValue, setValue] = useState('')
+  const [disbl, setDisbl] = useState(false)
   const [error, setError] = useState({
     name: [false, ""],
     phone: [false, ""],
@@ -129,7 +135,7 @@ export default function ContactForm() {
 
               <div className='contactSocialContent'>
 
-                <button className='consultationBtn contactConsultationBtn'>{getText('contactSubmit')}</button>
+                <button disabled={disbl} className='consultationBtn contactConsultationBtn'>{getText('contactSubmit')}</button>
 
                 <div className='contactSocialLink'>
 
