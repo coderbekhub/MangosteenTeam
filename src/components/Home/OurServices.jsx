@@ -8,7 +8,7 @@ export default function OurServices() {
         <h2 data-aos="fade-right" data-aos-duration="2000">{getText('serviceTitle')}</h2>
         <p className='service-info' data-aos="fade-left" data-aos-duration="2000">{getText('serviceText')}</p>
         <div className="row justify-content-center">
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className="w-100 card">
               <h1 className='card-icon'>
                 <i className="fa-sharp fa-solid fa-circle-info"></i>
@@ -18,7 +18,7 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className=" card">
               <h1 className='card-icon'>
                 <i className="fa-solid fa-gears"></i>
@@ -28,7 +28,7 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className=" card">
               <h1 className='card-icon'>
                 <i className="fa-solid fa-tag"></i>
@@ -38,7 +38,7 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className=" card">
               <h1 className='card-icon'>
                 <i className="fa-solid fa-shield-halved"></i>
@@ -48,7 +48,7 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className=" card">
               <h1 className='card-icon'>
               <i className="fa-solid fa-pen-nib"></i>
@@ -58,7 +58,7 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-6 col-md-6 col-lg-4 '>
+          <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className=" card">
               <h1 className='card-icon'>
                 <i className="fa-solid fa-lightbulb"></i>
