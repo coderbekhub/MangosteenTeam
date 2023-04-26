@@ -11,7 +11,7 @@ export default function HomeHeader() {
           <div>
             <h1 data-aos="fade-right" data-aos-duration="2000">Mangosteen Group </h1>
             <div data-aos="fade-up" data-aos-duration="2000" >
-              <a href="tel:+998951666763">
+              <a href="https://t.me/Mangosteenuz" target='_blank'>
                 <button className='consultationBtn'>
                   {getText('freeConsultation')}
                 </button>

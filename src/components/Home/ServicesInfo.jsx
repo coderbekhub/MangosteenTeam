@@ -32,9 +32,6 @@ export default function ServicesInfo() {
 
           <div className="col-md-5">
             <div className='service-card-info'>
-              <p>{getText("telegramInfo")} </p>
-
-              <Link to="/services">{getText("webLink")}</Link>
               <p>{getText('telegramInfo')} </p>
               <Link to="/services">{getText('webLink')}</Link>
             </div>
@@ -51,9 +48,6 @@ export default function ServicesInfo() {
 
           <div className="col-md-5">
             <div className='service-card-info'>
-              <p>{getText("logoInfo")}</p>
-
-              <Link to="/services">{getText("webLink")}</Link>
               <p>{getText('webInfoText')} </p>
               <Link to="/services">{getText('webLink')}</Link>
             </div>

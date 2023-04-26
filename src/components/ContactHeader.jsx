@@ -13,15 +13,15 @@ export default function ContactHeader() {
                     <h2 data-aos="fade-down" data-aos-duration="2000">{getText('Contacts')}</h2>
                     <div className='d-flex'>
                         <div data-aos="fade-right" data-aos-duration="2000">
-                            <a href="tel:+998930105610">+998 (50) 010 56 10</a>
-                            <a href="tel:+998500105610">
-                                <button className='consultationBtn consultationBtn2'>{getText('freeConsultation')}</button>
+                            <a href="tel:+998951666763">+998 (50) 010 56 10</a>
+                            <a href="tel:+998951666763">
+                                <button className='consultationBtn consultationBtn2'>{getText('callMeBtn')}</button>
                             </a>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="2000" className='noneBtn'>
                             <a href="tel:+998951666763">+998 (95) 166 67 63 </a>
                             <a href="tel:+998951666763">
-                                <button className='consultationBtn'>{getText('freeConsultation')}</button>
+                                <button className='consultationBtn'>{getText('callMeBtn')}</button>
                             </a>
                         </div>
                     </div>

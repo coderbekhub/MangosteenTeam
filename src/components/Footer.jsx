@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="col-md-3 col-6 footerInfo">
             <div>
               <h2>Telefon</h2>
-              <a href="tel:+998500105610">+998 (50) 010 56 10</a>
+              <a href="tel:+998951666763">+998 (50) 010 56 10</a>
             </div>
             <i class='bx bx-phone'></i>
           </div>

@@ -153,7 +153,7 @@ export default function ContactForm() {
           <div data-aos="fade-left" data-aos-duration="1500" className='contactInfoContent col-3'>
             <div className='contactInfo'>
               <h2>{getText('contactPhoneNum')}</h2>
-              <a href="tel:+998500105610">+998 50 010 56 10 </a>
+              <a href="tel:+998951666763">+998 50 010 56 10 </a>
               <a href="tel:+998951666763">+998 95 166 67 63 </a>
             </div>
             <div className='contactInfo'>

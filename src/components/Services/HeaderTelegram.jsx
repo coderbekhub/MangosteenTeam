@@ -9,9 +9,10 @@ export default function HeaderTelegram() {
         <div className="header-info">
           <div>
             <h1 data-aos="fade-right" data-aos-duration="2000">{getText('telegramTittle')}</h1>
-
             <div data-aos="fade-up" data-aos-duration="2000" >
-              <NeonBtn />
+              <a href="https://t.me/Mangosteenuz" target='_blank'>
+                <NeonBtn />
+              </a>
               <br/>
 
               <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
