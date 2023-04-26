@@ -877,7 +877,6 @@ a{
             margin-left: 20px;
           }
           div {
-            margin-right: 20px;
             &:nth-child(2) {
               margin-left: 20px;
             }
@@ -1212,7 +1211,9 @@ a{
 }
 
 // CONSULTATION BTN
-
+.consultationBtn2 {
+  margin-left: 16px;
+}
 .consultationBtn {
   border: none;
   width: auto;
@@ -1237,6 +1238,34 @@ a{
     transform: scale(1.05);
     transition: all .5s ease-in-out;
   }
+}
+
+@media (max-width: 587px) {
+  .consultationBtn {
+    padding: 10px 40px;
+    border-radius: 18.5625px;
+    font-size: 12px !important;
+    line-height: 18px;
+  }
+
+  .contactHeader {
+    div {
+      h2 {
+        font-size: 50px !important;
+        font-weight: 500;
+        margin-bottom: 30px;
+      }
+      div {
+        div {
+          a {
+            font-size: 20px !important;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  
 }
 
 .App {

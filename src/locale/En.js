@@ -71,7 +71,7 @@ export const en = {
     'webPriceCatalog': 'Catalog site',
     'webPriceCorporate': 'Corporate website',
     'webPriceMagazine': 'Internet shop',
-    'webPriceUnical': 'Unique Loyiha',
+    'webPriceUnical': 'Unique Project',
     // Telegram Bot
     'telegramBot': 'Telegram bot',
     'yaratishHizmati': 'creation service',
