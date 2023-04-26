@@ -139,15 +139,15 @@ export default function ContactForm() {
 
                 <div className='contactSocialLink'>
 
-                  <a href="https://t.me/Mangosteenuz" target='_blank'>
+                  <a href="https://t.me/Mangosteenuz" target='_blank' rel="noreferrer">
                     <i className='bx bxl-telegram'></i>
                   </a>
 
-                  <a href="https://instagram.com/mangosteengroup?igshid=YmMyMTA2M2Y=" target='_blank'>
+                  <a href="https://instagram.com/mangosteengroup?igshid=YmMyMTA2M2Y=" target='_blank' rel="noreferrer">
                     <i className='bx bxl-instagram-alt'></i>
                   </a>
 
-                  <a href="https://github.com/MangosteenCoders" target='_blank'>
+                  <a href="https://github.com/MangosteenCoders" target='_blank' rel="noreferrer">
                     <i className='bx bxl-github'></i>
                   </a>
 
