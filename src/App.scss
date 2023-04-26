@@ -1102,15 +1102,6 @@ a{
 }
 
 @media (max-width: 571px) {
-  .contactHeader {
-    div {
-      h2 {
-        font-size: 35px;
-        font-weight: 700;
-        margin-bottom: 30px;
-      }
-    }
-  }
   .noneBtn {
     display: none;
   }
@@ -1251,9 +1242,9 @@ a{
   .contactHeader {
     div {
       h2 {
-        font-size: 50px !important;
+        font-size: 49px !important;
         font-weight: 500;
-        margin-bottom: 30px;
+        margin-bottom: 30px !important;
       }
       div {
         div {

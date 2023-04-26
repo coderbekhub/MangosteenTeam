@@ -59,7 +59,7 @@ export default function ContactForm() {
       }
     })
       .then((res) => {
-        toast.success("Habaring muvofaqqiyatli yuborildi!")
+        toast.success("Habaringiz muvofaqqiyatli yuborildi!")
         e.target.reset()
         setDisbl(false)
       })
