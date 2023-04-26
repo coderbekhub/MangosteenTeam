@@ -72,7 +72,7 @@ export const uz = {
     'webPriceCatalog': 'Katalog sayt',
     'webPriceCorporate': 'Korparativ sayt',
     'webPriceMagazine': 'Internet magazin',
-    'webPriceUnical': 'Unikal loyiha',
+    'webPriceUnical': 'Unikal project',
     // Telegram Bot
     'telegramBot': 'Telegram bot',
     'yaratishHizmati': 'yaratish xizmati',
