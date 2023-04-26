@@ -8,10 +8,10 @@ export default function LoaderService() {
       <div className="d-flex">
         <p>{getText('services')}</p>
 
-        <div class="leap-frog">
-          <div class="leap-frog__dot"></div>
-          <div class="leap-frog__dot"></div>
-          <div class="leap-frog__dot"></div>
+        <div className="leap-frog">
+          <div className="leap-frog__dot"></div>
+          <div className="leap-frog__dot"></div>
+          <div className="leap-frog__dot"></div>
         </div>
       </div>
     </div>

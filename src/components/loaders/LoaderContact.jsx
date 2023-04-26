@@ -9,9 +9,9 @@ export default function LoaderContact() {
         <p>{getText('contact')}</p>
 
         <div class="leap-frog">
-          <div class="leap-frog__dot"></div>
-          <div class="leap-frog__dot"></div>
-          <div class="leap-frog__dot"></div>
+          <div className="leap-frog__dot"></div>
+          <div className="leap-frog__dot"></div>
+          <div className="leap-frog__dot"></div>
         </div>
       </div>
     </div>

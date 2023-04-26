@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Contacts from './pages/Contacts';
-import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
