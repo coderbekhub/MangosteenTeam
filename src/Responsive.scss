@@ -1,6 +1,17 @@
 // Mobile 
 
 @media (max-width : 576px) {
+  .tittle{
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 120% !important;
+  }
+  
+  .info{
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 120% !important;
+  }
   .Home{
     .HomeHeader{
       .header-info{
@@ -215,6 +226,18 @@
 // Tablet
 
 @media (max-width : 768px) {
+  .tittle{
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    line-height: 120% !important;
+  }
+  
+  .info{
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 120% !important;
+  }
+  
   .consultationBtn{
     font-weight: 700;
     font-size: 14.2657px;

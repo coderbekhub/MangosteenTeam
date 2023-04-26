@@ -10,8 +10,8 @@ export default function Questions() {
   return (
     <div className='Questions'>
       <div className="container">
-        <h2 className='section-tittle'>{getText('questionsTitle')}</h2>
-        <p className='section-info'>{getText('questionsFrequentlyAsked')}</p>
+        <h2 className='section-tittle tittle'>{getText('questionsTitle')}</h2>
+        <p className='section-info info'>{getText('questionsFrequentlyAsked')}</p>
         <div>
           <Accordion className='accordion'>
             <AccordionSummary

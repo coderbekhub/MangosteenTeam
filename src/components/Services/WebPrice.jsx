@@ -7,7 +7,7 @@ export default function WebPrice() {
       <div className="container">
         <div className="row">
           <div data-aos="zoom-in" data-aos-duration="1000" className="price-tittle col-12 text-center mb-5">
-            <h3>{getText('webPriceTitle')}</h3>
+            <h3 className='tittle'>{getText('webPriceTitle')}</h3>
           </div>
 
           <div data-aos="zoom-in" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4">

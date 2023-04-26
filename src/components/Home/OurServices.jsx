@@ -5,8 +5,8 @@ export default function OurServices() {
   return (
     <div className='OurServices' id='toDown'>
       <div className="container">
-        <h2 data-aos="fade-right" data-aos-duration="2000">{getText('serviceTitle')}</h2>
-        <p className='service-info' data-aos="fade-left" data-aos-duration="2000">{getText('serviceText')}</p>
+        <h2 data-aos="fade-right" className='tittle' data-aos-duration="2000">{getText('serviceTitle')}</h2>
+        <p className='service-info info' data-aos="fade-left" data-aos-duration="2000">{getText('serviceText')}</p>
         <div className="row justify-content-center">
           <div data-aos="zoom-in" data-aos-duration="1000" className='mb-4 col-12 col-md-6 col-lg-4 '>
             <div className="w-100 card">

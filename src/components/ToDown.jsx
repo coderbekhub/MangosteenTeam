@@ -3,7 +3,7 @@ import React from 'react'
 import { useEffect } from 'react'
 export default function ToDown() {
   const top = () => {
-    window.scrollTo(0, 900)
+    window.scrollTo(0, 600)
   }
   return (
     <div className='toDownBtn' onClick={top}>

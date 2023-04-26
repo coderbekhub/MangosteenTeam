@@ -38,6 +38,20 @@ html {
   }
 }
 
+.tittle{
+  color: $red !important;
+  font-weight: 600 !important;
+  font-size: 47px !important;
+  line-height: 120% !important;
+}
+
+.info{
+  color: $text-color !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 120% !important;
+}
+
 .App{
   overflow-x: hidden !important;
   overflow-y: hidden !important;
@@ -927,7 +941,7 @@ a{
 
 .contactFormSection {
   background-color: #F3F6FB;
-  padding: 100px 0;
+  padding: 100px 0 40px 0;
 }
 
 .contactContent {

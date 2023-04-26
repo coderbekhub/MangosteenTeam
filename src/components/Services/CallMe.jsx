@@ -7,8 +7,8 @@ export default function CallMe() {
     <div className='CallMe'>
       <div className="container">
         <div className="text-center">
-          <h3>{getText('callMeTitle')}</h3>
-          <p>{getText('callMeText')}</p>
+          <h3 className='tittle'>{getText('callMeTitle')}</h3>
+          <p className='info mb-4'>{getText('callMeText')}</p>
           
           <div data-aos="fade-up" data-aos-duration="1500" className="">
             <a href="tel:+998951666763">

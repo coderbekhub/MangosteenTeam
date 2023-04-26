@@ -95,8 +95,8 @@ export default function ContactForm() {
     <section className='contactFormSection'>
       <div className="container">
         <div data-aos="fade-right" data-aos-duration="2000" className='contactText'>
-          <h2>{getText('contactQuestTitle')}</h2>
-          <p>{getText('contactQuestText')}</p>
+          <h2 className='tittle'>{getText('contactQuestTitle')}</h2>
+          <p className='info mb-5'>{getText('contactQuestText')}</p>
         </div>
         <div className='contactContent row'>
           <div id='toDown' className='contactForm col-7'>
