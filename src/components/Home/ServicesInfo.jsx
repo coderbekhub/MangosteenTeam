@@ -17,9 +17,6 @@ export default function ServicesInfo() {
           <div className="col-12 col-md-5">
             <div className='service-card-info'>
               <p>{getText("webInfo")} </p>
-
-              <Link to='/services'>{getText("webLink")}</Link>
-              <p>{getText('webTittle')} </p>
               <Link to='/services'>{getText('webLink')}</Link>
             </div>
           </div>
