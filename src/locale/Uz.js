@@ -18,7 +18,7 @@ export const uz = {
     'serviceGuaranteed': 'Kafolatlangan xizmat',
     'serviceGuaranteedText': 'Biz xizmatimiz kelishilinganidek bo’lishiga 100% kafolat beramiz va belgilangan mudatda kelishilingan xolda topshiramiz',
     'profecionalDesign' : "Professional design",
-    'profecionalDesignInfo' : "Biz dizaynga prodisional tarzda yondashamiz dizayn yagona boladi xechqanday nusxa emas",
+    'profecionalDesignInfo' : "Biz dizaynga profisional tarzda yondashamiz dizayn yagona boladi xechqanday nusxa emas",
     'idea' : "Kreativ g'oyalar",
     'ideInfo' : "Bizning jamoa hamkorlik jarayonida yangi g'oyalar va takliflar bilan bo'lishadi",
    
