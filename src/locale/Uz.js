@@ -112,6 +112,4 @@ export const uz = {
     'aboutTitle': 'Biz haqimizda',
     'aboutSecTitle': 'Mangosteen Group biznig jamoa veb-sayt, telegram-bot va brand uchun logotiplar yaratish bilan gibrit usulda shug’ulanadi. Jamoamizda 10 dan ortiq malakali va o’z ishining ustalari faoliyat yuritib borishadi. Mangosteen Group biznig jamoa veb-sayt, telegram-bot va brand uchun logotiplar yaratish bilan gibrit usulda shug’ulanadi. Jamoamizda 10 dan ortiq malakali va o’z ishining ustalari faoliyat yuritib borishadi.',
     'aboutThridTitle': 'Shaxsiy brendingizni biz bilan rivojlantiring. Biz sizning maqsadlaringiz haqida qayg’uramiz va sizlarga eng yaxhi sifatni ulashishga jamoamiz bilan astoydil harakat qilamiz bizga bildirgan ishonchingiz uchun "Mangosteen Gruop" jamoasi o’z minatdorchiligini bildiradi.'
-
-    
 }

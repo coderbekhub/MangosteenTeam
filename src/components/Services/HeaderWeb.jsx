@@ -11,7 +11,6 @@ export default function HeaderWeb() {
         <div className="header-info">
           <div>
             <h1 data-aos="fade-right" data-aos-duration="2000"><span>{getText('webSite')}</span> {getText('xizmati')}</h1>
-
             <div data-aos="fade-up" data-aos-duration="2000">
               <a href="https://t.me/Mangosteenuz" target='_blank'>
                 <NeonBtn />

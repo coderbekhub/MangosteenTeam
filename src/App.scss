@@ -432,6 +432,11 @@ a{
       position: relative;
       border-radius: 0 20px 20px 0;
 
+      img {
+        width: 100%;
+        height: auto;
+      }
+
       h2{
         font-weight: 600;
         font-size: 29px;
@@ -1252,25 +1257,6 @@ a{
     font-size: 12px !important;
     line-height: 18px;
   }
-
-  .contactHeader {
-    div {
-      h2 {
-        font-size: 49px !important;
-        font-weight: 500;
-        margin-bottom: 30px !important;
-      }
-      div {
-        div {
-          a {
-            font-size: 20px !important;
-            font-weight: 500;
-          }
-        }
-      }
-    }
-  }
-  
 }
 
 .App {

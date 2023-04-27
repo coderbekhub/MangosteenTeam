@@ -8,5 +8,5 @@ export const getLanguage = () => {
 }
 
 export const getText = word => {
-  return getLanguage() === 'en' ? en[word] : getLanguage() === 'uz' ? uz[word] : ru[word]
+  return getLanguage() === "en" ? en[word] : getLanguage() === "ru" ? ru[word] : uz[word]
 }
